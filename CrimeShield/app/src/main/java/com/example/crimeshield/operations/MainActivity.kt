@@ -30,9 +30,17 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.crimeshield.camera.CameraPreview
 import com.example.crimeshield.camera.MainViewModel
+import com.example.crimeshield.camera.PhotoBottomSheetContent
+import com.example.crimeshield.data.Screen
+import com.example.crimeshield.screens.CreateScreen
+import com.example.crimeshield.screens.HomeScreen
+import com.example.crimeshield.screens.MapScreen
 import com.example.crimeshield.screens.MissingScreen
 import com.example.crimeshield.screens.NewsScreen
+import com.example.crimeshield.screens.SentReportsScreen
+import com.example.crimeshield.screens.SettingsScreen
 import com.example.crimeshield.screens.SexOffendersScreen
 import com.example.crimeshield.ui.theme.CrimeShieldTheme
 import kotlinx.coroutines.launch
